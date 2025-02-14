@@ -1,10 +1,11 @@
 import Home from "./Pages/Home";
+import Projects from "./Pages/Projects";
 function App() {
- 
   return (
-    <div>
+    <>
     <Home />
-    </div>
+    <Projects/>
+    </>
   );
 }
 
