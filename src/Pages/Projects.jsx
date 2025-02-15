@@ -1,8 +1,8 @@
 import React from "react";
 const Projects = () =>{
     return(
-<section id="Projects" className="py-6 px-6 bg-[#f8f9fa] min-h-screen">
-    <h1 className="text-[#333] text-3xl font-medium text-center mb-8">My Projects</h1>
+<section id="Projects" className="py-4 px-6 bg-[#f8f9fa] min-h-screen">
+    <h1 className="text-[#007bff] text-3xl font-medium text-center mb-20">My Projects :</h1>
     <div className="flex flex-col md:flex-row gap-7 justify-center items-center">
     <div className="w-80 md:w-95 bg-white shadow-xl rounded-lg p-4 cursor-pointer  transform transition duration-700 hover:scale-105 hover:shadow-2xl">
         <h2 className="text-[#007bff] font-semibold text-xl">
