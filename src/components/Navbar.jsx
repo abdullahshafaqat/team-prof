@@ -1,4 +1,5 @@
 import React from "react";
+
 const Navbar = () =>{
     return(
 <nav className=" bg-[#f8f9fa]/70 backdrop-blur-sm flex justify-between items-center py-2.5 px-4 z-50 fixed top-0 w-full">
@@ -9,6 +10,14 @@ const Navbar = () =>{
        <li className="cursor-pointer text-xl hover:text-[#007bff] transition-colors duration-200 hover:underline "><a href="#Contact">Contact</a></li>
     </ul>
 </nav>
+
+
+    
+
+
     );
 }
 export default Navbar;
+
+
+
