@@ -1,16 +1,8 @@
-import Home from "./Pages/Home";
-import Projects from "./Pages/Projects";
-import Contact from "./Pages/Contact";
-// import Footer from "./components/Footer";
+import Calculator from "./Calculator";
 function App() {
   return (
-    <>
-    <Home />
-    <Projects/>
-    <Contact/>
-    {/* <Footer/> */}
-    </>
+    <Calculator />
   );
 }
 
-export default App
+export default App;
