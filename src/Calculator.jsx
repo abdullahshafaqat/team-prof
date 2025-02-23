@@ -23,14 +23,16 @@ const calculateResult = () =>{
     };
 
   return (
-    <div className="flex justify-center items-center h-screen bg-gray-200">
-    <div className="bg-white p-6 rounded-lg shadow-lg w-80">
+    <div className="flex justify-center items-center h-screen bg-cover bg-center bg-[url(/Images/bgimg.png)]" 
+   
+    >
+    <div className="bg-black/20 backdrop-blur-xl p-6 rounded-xl shadow-lg w-80">
   
       <input
         type="text"
         value={input}
         readOnly
-        className="w-full h-14 text-right px-3 text-2xl border rounded-lg mb-4 bg-cyan-950 text-white"
+        className="w-full h-14 text-right px-3 text-2xl border-none rounded-lg mb-4 bg-transparent text-white"
       />
 
 
@@ -40,7 +42,7 @@ const calculateResult = () =>{
             <button
               key={item}
               onClick={() => handleClick(item)}
-              className="bg-amber-400 text-white text-xl p-3 rounded-lg hover:bg-red-700 transition"
+              className="bg-gray-900/30 text-white text-xl p-3 rounded-lg hover:bg-gray-800 transition"
             >
               {item}
             </button>
@@ -49,7 +51,7 @@ const calculateResult = () =>{
        
         <button
           onClick={() => handleClick("C")}
-          className="col-span-4 bg-orange-600 text-white text-xl p-3 rounded-lg hover:bg-red-700 transition"
+          className=" col-span-4 bg-gray-900/50 text-white text-xl p-3 rounded-lg hover:bg-gray-800 transition"
         >
           C
         </button>
